@@ -24,4 +24,9 @@ It is designed to identify similar images from a dataset given one or more input
 | ResNet101   | 101    | ~44M       | ~77.4%           | Medium | Balanced depth and performance     |
 | ResNet152   | 152    | ~60M       | ~78.3%           | Slower | Best feature quality, higher cost  |
 
-You can choose the model by changing a single import line in the script.
+---
+
+**Summary:**  
+- ResNet50 offers a good speed-accuracy trade-off for most applications.  
+- ResNet101 balances deeper architecture with reasonable computational cost.  
+- ResNet152 achieves highest accuracy but requires significant computation and memory.
